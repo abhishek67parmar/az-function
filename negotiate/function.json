@@ -1,0 +1,22 @@
+{
+  "bindings": [
+    {
+      "type": "signalRConnectionInfo",
+      "name": "connectionInfo",
+      "hubName": "health",
+      "connectionStringSetting": "Endpoint=https://api-health.service.signalr.net;AccessKey=2KpvmathzVIouJYxshWdH9VbZaVFN8hmqu4k0DG2gAM=;Version=1.0;",
+      "direction": "in"
+  },
+  {
+    "authLevel": "anonymous",
+    "type": "httpTrigger",
+    "direction": "in",
+    "name": "req"
+  },
+  {
+    "type": "http",
+    "direction": "out",
+    "name": "res"
+  }
+  ]
+}
