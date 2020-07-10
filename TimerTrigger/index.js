@@ -8,7 +8,7 @@ module.exports = async function (context, myTimer) {
         context.log('JavaScript is running late!');
     }
 
-    let response = await fetch('https://api.aurizon.com.au/cps-api/crewprestart-api/health');
+    let response = await fetch('API_LINK');
     let data = await response.json();
     context.log(data);
     context.bindings.signalRMessages = [{
